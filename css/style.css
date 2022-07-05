@@ -55,3 +55,11 @@ header h1{
 #button_gray{
     color: #d4d9dc;
 }
+
+.container main{
+    margin: 50px;
+}
+
+main ul{
+    list-style: none;
+}

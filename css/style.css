@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header > img, h1{
+    display: inline;
+}
+
+header{
+    height: 90px;
+    border-bottom: 1px solid black;
+} 
+
+header img{
+    width: 80px;
+}
+
+header h1{
+    color: #000000;
+    font-size: 4em;
+}

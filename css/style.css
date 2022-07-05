@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
 header > img, h1{
     display: inline;
 }
 
 header{
+    background-color: #ffffff;
     height: 90px;
     border-bottom: 1px solid black;
 } 
@@ -20,4 +25,33 @@ header img{
 header h1{
     color: #000000;
     font-size: 4em;
+}
+
+.container{
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.container nav{
+    padding: 20px;
+}
+
+.button{
+    display: inline-block;
+    font-size: 16px;
+    padding: 7px 16px;
+    border-radius: 7px;
+    border-color: #e8eaec;
+}
+
+#button_azure{
+    margin-left: 40px; 
+    background-color: #47adf1;
+    color: #eaf6fd;  
+}
+
+#button_gray{
+    color: #d4d9dc;
 }

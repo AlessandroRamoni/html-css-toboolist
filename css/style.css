@@ -15,7 +15,6 @@ header > img, h1{
 header{
     background-color: #ffffff;
     height: 90px;
-    border-bottom: 1px solid black;
 } 
 
 header img{
@@ -62,4 +61,31 @@ header h1{
 
 main ul{
     list-style: none;
+}
+
+.titolo{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: "Luckiest guy", cursive;
+}
+
+main ul li{
+    font-size: 25px;
+}
+
+.green{
+    display: inline-block;
+    color: #79c9b6;
+    border: 2px solid #79c9b6;
+    border-radius: 50%;
+    /* width: 30px;
+    height: 30px; */
+}
+
+.red{
+    display: inline-block;
+    color: #eb5952;
+    border: 2px solid #eb5952;
+    border-radius: 50%;
 }

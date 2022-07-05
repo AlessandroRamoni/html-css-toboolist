@@ -9,8 +9,9 @@ body{
     font-family: "Luckiest guy", cursive;
 }
 
-header > img, h1{
-    float: left;
+header > img, header > h1{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 header{

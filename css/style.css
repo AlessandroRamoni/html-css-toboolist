@@ -78,6 +78,14 @@ main ul{
     font-weight: 700;
 }
 
+.titolo li{
+    margin-left: 5px;
+}
+
+.titolo ul li{
+    font-weight: 500;
+}
+
 #separatore{
     margin-top: 5px !important;
     padding-top: 40px;
@@ -87,20 +95,23 @@ main ul li{
     font-size: 25px;
 }
 
-.green{
+.common-class{
     display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.green{
     color: #79c9b6;
     border: 2px solid #79c9b6;
-    border-radius: 50%;
-    /* width: 30px;
-    height: 30px; */
 }
 
 .red{
-    display: inline-block;
     color: #eb5952;
     border: 2px solid #eb5952;
-    border-radius: 50%;
 }
 
 .choice{
@@ -109,6 +120,7 @@ main ul li{
     color: #f5fbfe;
     padding: 8px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .editorial{
